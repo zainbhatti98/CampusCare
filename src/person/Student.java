@@ -1,4 +1,15 @@
 package person;
 
-public class student {
+public class Student extends Person {
+    private String program;
+    private int semester;
+
+    public Student(int id, String name, String email, String program, int semester) {
+        super(id, name, email);
+        this.program = program;
+        this.semester = semester;
+    }
+
+    public String getProgram() { return program; }
+    public int getSemester() { return semester; }
 }
