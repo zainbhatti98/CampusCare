@@ -89,7 +89,6 @@ public class Main {
 
                     System.out.println("Ticket created successfully!");
                     break;
-
                 case 3:
                     System.out.println("\n--- All Tickets ---");
                     for (Ticket tk : tickets) {
